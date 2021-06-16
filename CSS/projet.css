@@ -1,0 +1,298 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    text-align: justify;
+    font-family: sans-serif;
+    background: white;
+    
+}
+body{
+    margin:10px ;
+    padding:10px ;
+    font-family: 'advent' , sans-serif;
+
+}
+form{
+    margin: auto;
+    max-width: 350px;
+}
+
+.pied{
+    text-align: left;
+    font-style: italic;
+    font-size: 1.3em;
+    text-decoration: underline; 
+    border-color: rgb(99, 99, 110);
+    padding: 10px;
+   font-family: monospace; 
+}
+input,textarea,button{
+    border: none;
+    width: 120%;
+    padding: 10px 10px;
+    margin: 1px 0;
+    font-size: 1.3em;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+textarea{
+    height: 90px;
+}
+
+footer{
+    background-color: rgb(15, 12, 4);
+    padding: 20px 0 10px 0;
+text-align: center;
+color: aliceblue;
+
+}
+h1{
+    text-align: right;
+    font-family: fantasy;
+    font-style: arial;
+    font-size: 20px;
+    float: right;
+     background: white;
+    
+        
+}
+ a:visited{ 
+   color: blue;
+    -webkit-color: blue;
+    -o-color: blue;
+    -o-chrome-color: blue;
+    -moz-color: blue;
+}
+.sect{
+    background: white;
+}
+#titre,#reservation,#excursion{
+    
+    text-align: center;
+    font-style: italic;
+    font-size: 2em;
+    text-decoration: underline;
+    font-family: fantasy;
+    background: white;
+    color: black;
+    text-shadow: 4px 6px 4px rgb(207, 152, 80);
+}
+
+#contacter{
+    font-size: 2em;
+    text-decoration: underline;
+    font-family: fantasy;
+    text-shadow: 4px 6px 4px rgb(207, 152, 80);
+    color: honeydew;
+}
+
+.bas, span{
+    text-align: justify;
+}
+table{
+    font-family: sans-serif;
+    font-style: normal;
+    text-align: center;
+
+}
+.tam{
+    float: right;
+    width: 25em;
+    background: withe;
+    padding: inherit;
+    margin: 10px 10px;
+    
+}
+.bal{
+    text-align: left;
+}
+.gauche{
+    text-align: right;
+}
+.droite{
+float: right;
+width: 25; 
+background: burlywood;
+padding: 10px;
+margin: 10px 10px;
+}
+h4{
+    font-size: 1.5em;
+    width: auto;
+    text-align: justify;
+    text-decoration: none;
+    font-style: italic; 
+     background: white;   
+}
+.tete{
+    font-style: italic;
+    font-size: 16px;
+   
+
+    
+}
+.para{
+    font-size: 1.2em;
+    margin: 20px 40px;
+    font-family: sans-serif;
+    text-align: left;
+     background: white;    
+}
+#tourisme{
+    font-family: 'dancing script', cursive;
+        font-weight: bold;
+      float: left;
+      color: black;
+}
+nav {
+    overflow: hidden;
+    background-color: rgb(191, 196, 201);
+    width: 100%;
+    opacity: 0.9; 
+}
+header li{
+    float: right;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    
+   
+    
+}
+header li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 18px 16px;
+    font-family: 'dancing script', cursive;
+}
+header li a:hover{
+    background-color: white;
+    color:black;
+    }
+ul{
+    margin: 0px;
+    padding: 0px 0px;
+}
+li{
+    list-style-type: none;
+}
+
+.présentation{
+    margin: 10px;
+        text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    background: white;
+    color: black;
+    padding: 10px;
+}
+#presentation{
+    background-color: white;
+    padding: 10px 0px 100px 0px;
+}
+#prestation{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+#image h4 {
+    font-family: 'Dancing script',cursive;
+    text-align: center;
+    font-size: 1.4em;
+    margin: 15px;
+    font-weight: 300px;
+}
+#image img{
+    border-radius: 25px;
+    box-shadow: 5px 4px 5px 4px rgba(0,0,0,0.7);
+    max-width: 300px;
+    
+}
+#image img:hover{
+    opacity: 0.5em;
+    transform: scale(1.05);
+    transition: O.6s ease-in-out;
+}
+button{
+    border-color: black;
+    -webkit-border-radius:24px;
+-moz-border-radius:24px;
+-o-border-radius:24px;
+-ms-border-radius:24px;
+}
+button:hover{
+    background-color:#555039;
+    color:#FFFAE1;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+.num{
+    background-color: whitesmoke;
+    font-size: 1.2em;
+    -webkit-border-radius:15px;
+-moz-border-radius:15px;
+-o-border-radius:15px;
+-ms-border-radius:15px;
+    border-color: black;
+    box-shadow: 10px;
+    color: black;
+}
+.petit{
+    font-size: 1.6em;
+    text-align: right;
+    font-family: monospace;
+}
+.mail{
+    font-size: 20px;
+    font-family: monospace;
+
+}
+#logo{
+background:white;
+border-bottom:2px dotted black;
+margin:10px;
+padding:0.9em;
+box-shadow: 4px 6px 4px black;
+border-radius: 20px;
+}
+#logo input{
+    width: 170px;
+    margin:0  50%;
+    background-color: rgb(145, 135, 135);
+    color: black;
+    border-radius: 10px;
+}
+#bas{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content: space-between;
+    padding: 30px;
+}
+#fromsoungary{
+    width: 40%;
+    text-align: left;
+}
+
+
+ #Icons{
+    display: flex;
+}
+
+ #Icons p{
+margin-left: 15px;
+border: 1px solid #fff;
+border-radius: 100%;
+padding: 5px;
+cursor: pointer;
+width: 20px;
+text-align: center;
+
+}
+button i{
+    color: blue;
